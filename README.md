@@ -91,7 +91,37 @@ Review the `azure-webapp-maven-plugin` configuration in the project for further 
 
 ```bash
 $ mvn azure-webapp:deploy
+
+...
+[WARNING] You are using an old way of authentication which will be deprecated in future versions, please change your configurations.
+[INFO] Authenticate with ServerId: azure-authentication
+[INFO] [Correlation ID: 5b9fb931-2566-4c2c-9f6d-0517109588ae] Instance discovery was successful
+[INFO] Target Web App doesn't exist. Creating a new one...
+[INFO] Creating App Service Plan 'ServicePlan11334dea-dfce-4402'...
+[INFO] Successfully created App Service Plan.
+[INFO] Successfully created Web App.
+[INFO] Stopping Web App before deploying artifacts...
+[INFO] Successfully stopped Web App.
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to /Users/zoal/projects/spring-boot-on-azure/target/azure-webapp/spring-boot-on-azure-20191030152029245-b6c868e7-3ee9-4542-9f49-1b4c1f0868e3
+[INFO] Trying to deploy artifact to spring-boot-on-azure-20191030152029245...
+[INFO] Renaming /Users/zoal/projects/spring-boot-on-azure/target/azure-webapp/spring-boot-on-azure-20191030152029245-b6c868e7-3ee9-4542-9f49-1b4c1f0868e3/spring-boot-on-azure-0.0.1-SNAPSHOT.jar to app.jar
+[INFO] Deploying the zip package spring-boot-on-azure-20191030152029245-b6c868e7-3ee9-4542-9f49-1b4c1f0868e31007581442608081701.zip...
+[INFO] Exception occurred during deployment: java.net.SocketTimeoutException: timeout, retry immediately(1/3)...
+[INFO] Successfully deployed the artifact to https://spring-boot-on-azure-20191030152029245.azurewebsites.net
+[INFO] Starting Web App after deploying artifacts...
+[INFO] Successfully started Web App.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:45 min
+[INFO] Finished at: 2019-10-30T16:22:15+01:00
 ```
 
 #### Further TODOs
 
+Check the warning:
+
+```bash
+[WARNING] You are using an old way of authentication which will be deprecated in future versions, please change your configurations.
+```
