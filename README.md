@@ -136,13 +136,12 @@ Greetings from Azure Cloud, running as an App Service
 
 The created `spring-boot-on-azure` resource group
 
-!(app-service-plan)[https://raw.githubusercontent.com/altfatterz/spring-boot-on-azure/master/images/app-service-plan.png]
+![app-service-plan](https://raw.githubusercontent.com/altfatterz/spring-boot-on-azure/master/images/app-service-plan.png)
 
 The created `App Service`
 
-!(app-service)[https://raw.githubusercontent.com/altfatterz/spring-boot-on-azure/master/images/app-service.png]
+![app-service](https://raw.githubusercontent.com/altfatterz/spring-boot-on-azure/master/images/app-service.png)
 
-The created 
 
 #### Further TODOs
 
