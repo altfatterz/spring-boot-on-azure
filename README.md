@@ -41,10 +41,10 @@ This creates a service principal under our subscription `/subscriptions/d72c2cf1
 #### Configure Maven's settings.xml
 
 Add a `server` element into your Maven `settings.xml` file where the you map the followings:
-`client` --> taken from `appId`
-`tenant` --> taken from `tenant`
-`key` --> taken from `password`
-Set the `environemnt` to `AZURE`
+1. `client` --> taken from `appId`
+2. `tenant` --> taken from `tenant`
+3. `key` --> taken from `password`
+4. Set the `environemnt` to `AZURE`
 
 ```xml
 <servers>
