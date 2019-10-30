@@ -118,6 +118,32 @@ $ mvn azure-webapp:deploy
 [INFO] Finished at: 2019-10-30T16:22:15+01:00
 ```
 
+#### Try out the service
+
+```bash
+http https://spring-boot-on-azure-20191030152029245.azurewebsites.net
+
+HTTP/1.1 200 OK
+Content-Length: 53
+Content-Type: text/plain;charset=UTF-8
+Date: Wed, 30 Oct 2019 15:30:43 GMT
+Set-Cookie: ARRAffinity=2341b754ef97daa69db43f3b1555b5c9df8f30bc228f0c2a8a16f7cda08e30fa;Path=/;HttpOnly;Domain=spring-boot-on-azure-20191030152029245.azurewebsites.net
+
+Greetings from Azure Cloud, running as an App Service
+```
+
+### Verify the Azure Portal
+
+The created `spring-boot-on-azure` resource group
+
+!(app-service-plan)[https://raw.githubusercontent.com/altfatterz/spring-boot-on-azure/master/images/app-service-plan.png]
+
+The created `App Service`
+
+!(app-service)[https://raw.githubusercontent.com/altfatterz/spring-boot-on-azure/master/images/app-service.png]
+
+The created 
+
 #### Further TODOs
 
 Check the warning:
