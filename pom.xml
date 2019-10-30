@@ -54,7 +54,7 @@
 
                     <!-- Reference <serverId> in Maven's settings.xml to authenticate with Azure -->
                     <authentication>
-                        <serverId>azure-auth</serverId>
+                        <serverId>azure-authentication</serverId>
                     </authentication>
 
                     <resourceGroup>spring-boot-on-azure</resourceGroup>
