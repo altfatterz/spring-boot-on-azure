@@ -66,6 +66,12 @@ Add a `server` element into your Maven `settings.xml` file where the you map the
 $ https://github.com/altfatterz/spring-boot-on-azure.git
 ```
 
+### Build the project
+
+```bash
+$ mvn clean package
+```
+
 #### Configure the `pom.xml`
 
 Configure the `azure-webapp-maven-plugin` plugin to use the `azure-authentication` server Maven setting.
@@ -150,3 +156,5 @@ Check the warning:
 ```bash
 [WARNING] You are using an old way of authentication which will be deprecated in future versions, please change your configurations.
 ```
+
+More info here: https://github.com/Microsoft/azure-maven-plugins/blob/master/docs/common-configuration.md
